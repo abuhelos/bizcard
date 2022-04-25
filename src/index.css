@@ -1,13 +1,200 @@
-body {
+/*------------------------------------*\
+  #BASE
+\*------------------------------------*/
+
+* {
+  box-sizing: border-box;
+  font-family: inherit;
+  line-height: inherit;
+  color: inherit;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Inter", sans-serif;
+  background: #23252c;
 }
+
+.image--top {
+  display: block;
+  max-width: 100%;
+}
+
+/*------------------------------------*\
+#TYPOGRAPHY
+\*------------------------------------*/
+
+body {
+  font-size: 0.64rem;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 1.5625rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:not(.btn):hover,
+a:not(.btn):focus {
+  text-decoration: underline;
+  opacity: 0.95;
+}
+
+:focus-visible {
+  outline: 4px solid orange;
+}
+
+/*------------------------------------*\
+#CARD-LAYOUT
+\*------------------------------------*/
+
+.card {
+  background: #1a1b21;
+  color: #dcdcdc;
+  /* max-width: 400px; */
+  max-width: 317px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.card > * + * {
+  margin-top: 2.5em;
+}
+
+.container > * + * {
+  margin-top: 0.8em;
+}
+
+@media (min-width: 335px) {
+  .card {
+    margin: 3em auto;
+  }
+
+  .card,
+  .info,
+  .info .avatar {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .card,
+  .footer {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+}
+
+/*------------------------------------*\
+#INFO
+\*------------------------------------*/
+
+.info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.info .avatar {
+  order: -1;
+}
+
+.info .name {
+  margin: 0.84em 0 0;
+}
+
+.info .job-title {
+  font-size: 0.8rem;
+  color: #f3bf99;
+  margin-top: 0;
+}
+
+.info .buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(125px, 1fr));
+  gap: 1.215em;
+  font-size: 0.875rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65em;
+  padding: 0.65em 1.28em;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+
+  background: #fff;
+  color: #374151;
+  font-weight: 500;
+
+  transition-property: transform, opacity;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-out;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: 0.95;
+  transform: scale(1.05);
+}
+
+.btn--accent {
+  background: #5093e2;
+  color: #ffffff;
+  border: 1px solid transparent;
+}
+
+/*------------------------------------*\
+#FOOTER
+\*------------------------------------*/
+
+.footer {
+  height: 64px;
+  background: #161619;
+  margin-top: 3.5em;
+}
+
+.icons-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  height: 100%;
+}
+
+.icons-list a {
+  display: flex;
+}
+
+/*------------------------------------*\
+#UTILITIES
+\*------------------------------------*/
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+/* Github library on sr hiding text for ATs to read
+https://gist.github.com/ffoodd/000b59f431e3e64e4ce1a24d5bb36034
+*/
