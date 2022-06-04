@@ -1,5 +1,13 @@
 # Digital Business Card
 
+# <<<<<<< HEAD
+
+## Add Additional Markup Sections (Maybe get rid of React Prompt)
+
+# Getting Started with Create React App
+
+> > > > > > > e71063136103e58eb7e467a3ae5bb916fe21021d
+
 First time using React and the create-react-app boilerplate. Made a static website with information about myself and links to my LinkedIn, Email, and Github profiles.
 
 ## What I learned
