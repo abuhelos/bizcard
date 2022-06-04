@@ -6,8 +6,8 @@ export default function Info() {
         <div className="info">
             <div className="container">
                 <h1 className="name">Andrew Buhelos</h1>
-                <p className="job-title">Full Stack Developer</p>
-                <p className="website"><a href="https://andrewbuhelos.com/" target="_blank">andrewbuhelos.com</a></p>
+                <p className="job-title">Front End Developer</p>
+                
                 <p className="buttons">
                     <a href="mailto:abuhelos3@gmail.com" className="btn">
                         <svg width="13" height="10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.102 1.707 6.5 4.906l6.398-3.199A1.6 1.6 0 0 0 11.3.2H1.7A1.6 1.6 0 0 0 .102 1.707Z" fill="#1E1F26"/><path d="m12.9 3.494-6.4 3.2-6.4-3.2V8.2a1.6 1.6 0 0 0 1.6 1.6h9.6a1.6 1.6 0 0 0 1.6-1.6V3.494Z" fill="#1E1F26"/></svg>
@@ -23,3 +23,4 @@ export default function Info() {
         </div>
     )
 }
+// <p className="website"><a href="https://andrewbuhelos.com/" target="_blank">andrewbuhelos.com</a></p>

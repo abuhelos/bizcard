@@ -4,7 +4,10 @@ export default function About() {
     return (
         <div className="about container">
             <h2>About</h2>
-            <p>Self taught full stack developer. Southern Methodist University Graduate: 2021. Looking for jobs in x category. </p>
+            <p>Self taught front-end developer. Southern Methodist University graduate. Looking for jobs in front-end development. Proficient in HTML, CSS, JavaScript, and React.js. </p>
         </div>
     )
 }
+/**
+ * Self-taught front-end developer. 
+ */

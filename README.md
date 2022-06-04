@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# Digital Business Card
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+First time using React and the create-react-app boilerplate. Made a static website with information about myself and links to my LinkedIn, Email, and Github profiles.
+
+## What I learned
+
+- Setting up a local React environment with Create React App
+- ReactDOM.render()
+- How to render and organize components
+- Parent/child components
 
 ## Available Scripts
 
