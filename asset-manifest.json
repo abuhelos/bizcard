@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/bizcard/static/css/main.824b5dbd.css",
+    "main.js": "/bizcard/static/js/main.c6a61c8f.js",
+    "static/js/787.9644e733.chunk.js": "/bizcard/static/js/787.9644e733.chunk.js",
+    "static/media/0014.jpg": "/bizcard/static/media/0014.0493a648a1abf7c2692e.jpg",
+    "index.html": "/bizcard/index.html",
+    "main.824b5dbd.css.map": "/bizcard/static/css/main.824b5dbd.css.map",
+    "main.c6a61c8f.js.map": "/bizcard/static/js/main.c6a61c8f.js.map",
+    "787.9644e733.chunk.js.map": "/bizcard/static/js/787.9644e733.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.824b5dbd.css",
+    "static/js/main.c6a61c8f.js"
+  ]
+}
